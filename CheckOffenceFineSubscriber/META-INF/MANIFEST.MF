@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CheckOffenceFineSubscriber
+Bundle-SymbolicName: CheckOffenceFineSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: checkoffencefinesubscriber.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: CheckOffenceFineSubscriber
+Import-Package: checkoffencefinepublisher,
+ org.osgi.framework;version="1.3.0",
+ org.osgi.util.tracker;version="1.5.2"
+Bundle-ActivationPolicy: lazy
